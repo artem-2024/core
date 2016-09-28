@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="abc_tab_text_normal">#212121</color>
+    <color name="abc_theme_black_7f">#7f000000</color>
+    <color name="abc_white">#ffffff</color>
+    <color name="colorPrimary">#2196F3</color>
+    <declare-styleable name="TabStripView"><attr format="color|reference" name="navigateTabTextColor"/><attr format="color|reference" name="navigateTabSelectedTextColor"/><attr format="integer|reference" name="containerId"/><attr format="dimension|reference" name="navigateTabTextSize"/></declare-styleable>
+    <string name="app_name">Core</string>
+    <style name="Theme.No.ActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Swipe.Back" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>
