@@ -28,7 +28,8 @@ public class FastJsonResponseBodyConverter <T> implements Converter<ResponseBody
 
     @Override public T convert(ResponseBody value) throws IOException {
         try {
-            return JSON.parseObject(CodeUtils.decodeToSgtring(value.string()), type);
+            //return JSON.parseObject(CodeUtils.decodeToSgtring(value.string()), type);
+            return JSON.parseObject(value.string(), type);
         } finally {
             value.close();
         }

@@ -15,6 +15,9 @@ import java.util.Map;
  * @author: 蜡笔小新
  * @date: 2016-05-31 14:15
  * @GitHub: https://github.com/meikoz
+ *
+ * edit change by oreo at 20160822
+ * https://github.com/oreo
  */
 public class LogicProxy {
     private static final LogicProxy m_instance = new LogicProxy();

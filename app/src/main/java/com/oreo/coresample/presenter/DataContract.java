@@ -12,7 +12,6 @@ import com.android.core.model.annotation.Implement;
 @Implement(DataPresenter.class)
 public interface DataContract {
 
-    //    获取套餐列表
-    void getPackageList();
+    void getPackageList(int page,int tag);
 
 }
