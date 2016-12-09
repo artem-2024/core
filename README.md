@@ -7,10 +7,6 @@ MVP,Retrofit,Beautiful log tool,Some widget...I will continue to update it
 ## Usage Gradle
 build.gradle：
 ```
-repositories {
-    maven { url "https://dl.bintray.com/oreo/oreo/" }
-}
-
 dependencies {
     compile 'com.oreo:core:1.0.0'
 }
