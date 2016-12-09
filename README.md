@@ -5,17 +5,25 @@ The ```core``` is a modified version of [meikoz's Basic core](https://github.com
 MVP,Retrofit,Beautiful log tool,Some widget...I will continue to update it
 
 ## Usage Gradle
+
 build.gradle：
 ```
 dependencies {
     compile 'com.oreo:core:1.0.0'
 }
 ```
+application ：
+```
+extends MainApp, and add this in the onCreate method
+
+if (BuildConfig.DEBUG)
+            Logcat.init("your package name").hideThreadInfo().methodCount(3);
+```
 ## Thanks
 Thank you, [meikoz](https://github.com/meikoz), you gave me a lot of inspiration
 
 ## Other
-Maybe you need to fill in the ``` tools:replace="android:icon, android:theme"``` code in the ad AndroidManifest.xml <application/>.
+Maybe you need to fill in the ``` tools:replace="android:icon, android:theme"``` code in the AndroidManifest.xml <application/>.
 
 ## Email
 soft.han@qq.com
