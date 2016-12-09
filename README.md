@@ -14,7 +14,7 @@ dependencies {
 ```
 application ：
 ```
-extends MainApp, and add this in the onCreate method
+extends the "MainApp", and add this code in the onCreate method
 
 if (BuildConfig.DEBUG)
             Logcat.init("your package name").hideThreadInfo().methodCount(3);
